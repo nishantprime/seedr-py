@@ -1,0 +1,33 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+.eggs/
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# Environment files
+.env
+*.env
+
+# Downloaded test artifacts
+*.zip
+*.mkv
+*.mp4
+*.torrent
+
+# Research dumps and scratch files
+research/
+*.html
+*.js
+api_probe_results.json
+seedr_fetch.py
+inspect_*.py

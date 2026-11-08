@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "seedr-py"
+version = "0.1.0"
+authors = [
+  { name = "Nishant", email = "nishantprime@gmail.com" },
+]
+description = "Modern Python client and API wrapper for Seedr.cc with zero-CAPTCHA authentication, folder ZIP streaming, and HLS playback."
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Operating System :: OS Independent",
+    "Topic :: Internet :: WWW/HTTP",
+    "Topic :: Utilities",
+]
+dependencies = [
+    "requests>=2.28.0",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/nishantprime/seedr-py"
+"Bug Tracker" = "https://github.com/nishantprime/seedr-py/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]
